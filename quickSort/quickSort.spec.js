@@ -15,9 +15,9 @@ describe('quickSort', () => {
   });
 
   test('sorts 1 element', () => {
-    expect(mergeSort([3])).toEqual([3]);
+    expect(quickSort([3])).toEqual([3]);
   });
   test('sorts 0 elements', () => {
-    expect(mergeSort([])).toEqual([]);
+    expect(quickSort([])).toEqual([]);
   });
 });
