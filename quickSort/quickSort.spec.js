@@ -12,6 +12,12 @@ describe('quickSort', () => {
       74,
       100,
     ]);
-    expect(quickSort([3])).toEqual([3]);
+  });
+
+  test('sorts 1 element', () => {
+    expect(mergeSort([3])).toEqual([3]);
+  });
+  test('sorts 0 elements', () => {
+    expect(mergeSort([])).toEqual([]);
   });
 });

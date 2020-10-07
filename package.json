@@ -3,6 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "bubbleSort.js",
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  },
   "scripts": {
     "test": "jest  --watchAll",
     "test:ci": "jest"
